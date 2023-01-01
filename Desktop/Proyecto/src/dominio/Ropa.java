@@ -1,11 +1,11 @@
+package dominio;
 public class Ropa extends Item{
-	protected int talla;
-
-	public Ropa(String nombre,  String marca, int precio, int talla){
+	protected String talla;
+	public Ropa(String nombre,  String marca, int precio, String talla){
 		super(nombre, marca, precio);
 		this.talla = talla;
 	}
-	public void setTalla(int talla){
+	public void setTalla(String talla){
 		this.talla = talla;
 	}
 	public String toString(){

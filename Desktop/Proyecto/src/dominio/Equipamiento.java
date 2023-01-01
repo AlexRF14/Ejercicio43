@@ -1,3 +1,4 @@
+package dominio;
 public class Equipamiento extends Item{
 	protected String tipo;
 
